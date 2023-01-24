@@ -1,0 +1,13 @@
+    CLASSIFICAÇÃO DOS OPERADORES
+
+    Unários
+    Estes operadores são aplicados juntamente com um outro operador aritmético. Eles
+realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos
+e booleanos.
+
+    . Operador unário de valor positivo (+) - Números são positivos sem esse operador
+aplicado explicitamente;
+    . Operador unário de valor negativo (-) - Nega um número ou expressão aritmética;
+    . Operador unário de incremento de valor (++) - Incrementa o valor em 1 unidade;
+    . Operador unário de decremento do valor (--) - Decrementa o valor em 1 unidade;
+    . Operador unário lógico de negação (!) - 

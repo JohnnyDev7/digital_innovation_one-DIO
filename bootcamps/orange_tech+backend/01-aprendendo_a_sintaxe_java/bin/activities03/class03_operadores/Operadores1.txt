@@ -1,0 +1,18 @@
+    OBJETIVO DO CURSO
+
+    Apresentar os significado dos símbolos especiais de acordo com a
+Linguagem de Programação Java.
+
+    PRÉ-REQUISITOS
+
+    . Diretório do projeto definido;
+    . Integração com GitHub;
+    . Noções em declaração de variáveis.
+
+    ASSUNTOS
+
+    . Operadores aritméticos;
+    . Operadores unários;
+    . Operadores relacionais;
+    . Operadores lógicos;
+    . Operadore ternário.

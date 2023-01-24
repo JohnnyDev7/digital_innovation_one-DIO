@@ -1,0 +1,24 @@
+    CLASSIFICAÇÃO DOS OPERADORES
+
+    Relacionais
+    Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste
+caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor,
+menor ou igual, maior, ou, maior ou igual ao da direita, retornando um valor booleano
+como resultado.
+    . == Quando desejamos verificar se uma variável é IGUAL A outra.
+    . != Quando desejamos verificar se uma variável é DIFERENTE da outra.
+    . >  Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+    . >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+    . <  Quando desejamos verificar se uma variável é MENOR QUE a outra.
+    . <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+    Exemplos:
+    // classe Operadores.java
+    int n1 = 1;
+    int n2 = 2;
+
+    if (n1 > n2)
+        System.out.print("Número 1 maior que número 2");
+    
+    if (n1 < n2)
+        System.out.print("Número 1 menor que número 2");

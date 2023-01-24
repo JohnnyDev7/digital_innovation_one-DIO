@@ -1,0 +1,15 @@
+    CLASSIFICAÇÃO DOS OPERADORES
+
+    Lógicos
+    Os Operadores Lógicos representam o recurso que nos permite criar expressões lógicas
+maiores a partir da junção de duas ou mais expressões.
+    
+    . && Operador Lógico "E"
+    . || Operador lógico "OU"
+
+    Exemplos:
+    // Operadores.java
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    
