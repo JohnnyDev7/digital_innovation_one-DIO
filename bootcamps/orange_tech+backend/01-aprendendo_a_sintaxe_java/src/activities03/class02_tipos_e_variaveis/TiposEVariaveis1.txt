@@ -1,0 +1,17 @@
+    OBJETIVO DO CURSO
+    Explorar os tipos de dados numéricos, inteiros, numéricos decimais, lógicos,
+caracteres e suas aplicabilidades.
+    Explicar a diferença entre definição de variáveis e constantes.
+
+    PRÉ-REQUISITOS
+- JDK instalado
+- IDE escolhida
+- Diretório do projeto definido
+- Integração com GitHub
+
+    ASSUNTOS
+. Numéricos inteiros e decimais
+. Tipos lógicos
+. Caracteres
+. Objetos
+. Diferença entre variável e constante

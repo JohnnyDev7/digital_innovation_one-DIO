@@ -1,0 +1,32 @@
+    VARIÁVEIS E CONSTANTES
+
+    Uma "Variável" é uma área de memória, associada a um nome, que pode armazenar
+valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um
+conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente de
+linguagens como JavaScript, onde o tipo de variável não é obrigatório.
+
+    No Java utilizamos identificadores que representam uma referência (ponteiro)
+a um valor em memória, e esta referência pode ser redirecionada a outro valor, sendo,
+portanto, esta a causa do nome "variável". Pois o valor pode variar.
+
+    Já as "Constantes", são valores armazenados em memória que não podem ser
+modificados depois de declarados. Em Java, esses valores são representados pela palavra
+reservada "final", seguida do tipo.
+
+    Por convenção, "Constatntes" são sempre escritas em CAIXA ALTA.
+    Abaixo temos um exemplo sobre o uso de variáveis e constantes.
+
+    public class ExemploVariavel {
+        public static void main (String [] args) {
+            // Exemplo de uso de Variável
+            int numero = 5;
+            numero = 10;
+
+            // Exemplo de uso de Constante
+            final double VALOR_DE_PI = 3.14;
+            //VALOR_DE_PI = 3.15 // Esta linha de código apresenta erro.
+        }
+    }
+
+    Compreendemos que para declarar uma variável como uma constante, utilizamos a palavra
+reservada "final". Mas, por convenção, esta variável deverá ser escrita em caixa alta.
