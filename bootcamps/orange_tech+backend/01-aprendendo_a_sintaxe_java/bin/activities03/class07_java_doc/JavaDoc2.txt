@@ -1,0 +1,82 @@
+    JAVA DOC
+
+    DOCUMENTAÇÃO
+    Uma das maiores características da linguagem Java é que desde suas primeiras versões,
+tínhamos em nossas mãos, uma documentação rica e detalhada dos recursos da linguagem.
+    
+    Conforme o site oficial, podemos compreender e explorar todos os recursos organizados
+por pacotes e classes bem específicas sem nem mesmo escrever uma linha de código.
+    
+    Hoje, costuma-se afirmar que, para se tornar um desenvolvedor nível avançado, um
+requisito imprescindível é adquirir a habilidade de compreender a documentação oficial da
+linguagem e dos frameworks que são incorporados nos projetos atuais.
+
+    Aqui temos o link da documentação da linguagem Java:
+    https://docs.oracle.com/en/java/
+
+    TAGS
+    Quais informações obtemos através de classes documentadas na linguagem?
+    Java Documentation é composto por tags que representam dados relevantes para a
+compreensão da proposta de uma classe e o conjunto de seus métodos e atributos conforme
+tabela abaixo:
+
+    Tag         Descrição
+    @autor      Autor/Criador
+    @version    Versão do recurso disponibilizado
+    @since      Versão/Data de início da disponibilização do recurso
+    @param      Descrição dos parâmetros dos métodos criados
+    @return     Definição do tipo de retorno de um método
+    @throws     Se o método lança alguma exceção
+
+    TIPOS DE COMENTÁRIOS
+    . One Line
+    // Olá! Eu sou um comentário em uma única linha.
+
+    . Mult Line
+    /*
+    * Olá!
+    * Eu sou um comentário
+    * que posso ser mais detalhado
+    * quando necessário.
+    */
+
+    . Documentation
+    /**
+    * Os dois asteriscos acima
+    * são para identificar que você
+    * pretende elaborar um comentário
+    * a nível de documentação.
+    * Que Incrível!!!
+    */
+
+    Um comentário não possui a finalidade de "amenizar um allgoritmo não estruturado
+conforme as convenções da linguagem.
+    Exemplo:
+    /*
+    * Este método foi elaborado às pressas e,
+    * por isso, abreviei o nome das variáveis
+    * mas olha, ele tem a finalidade de somar ou multiplicar
+    * dois números.
+    */
+    public int somaMultiplica(int n, int x, String m) {
+        int r = 0; // r é igual ao resultado
+        if (m == "M") { // M = multiplicação
+            r = n * x;
+        } else {
+            // Senão, soma o mesmo
+            r = n + x
+        }
+        return r;
+    }
+
+    Javadoc
+    Javadoc é um gerador de documentação criado pela Sun Microsystems para documentar a API
+dos programas em Java à partir do código fonte. O resultado é expresso em HTML. É
+constituído, basicamente, por algumas marcações muito simples inseridas nos comentários
+do programa.
+    Este sistema é o padrão de documentação de classes em Java e, muitas IDEs desta
+linguagem irão automaticamente gerar um Javadoc em HTML.
+    Criando a nossa documentação no formato html para disponibilizar via web.
+
+    // No terminal, execute o comando abaixo
+    javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
