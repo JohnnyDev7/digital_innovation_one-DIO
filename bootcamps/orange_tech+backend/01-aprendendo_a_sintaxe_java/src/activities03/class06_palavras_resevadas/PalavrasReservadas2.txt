@@ -1,0 +1,86 @@
+    PALAVRAS RESERVADAS
+
+    Palavras reservadas são identificadores de uma linguagem que já possuem uma
+finalidade específica. Portanto, não podem ser utilizadas para nomear variáveis,
+classes, métodos ou atributos.
+
+    A linguagem Java possui 52 palavras reservadas. Todas estas palavras são
+classificadas em grupos e escritas com letra minúscula, sendo identificadas com
+uma cor especial pela maioria das IDEs.
+
+    Abaixo, temos a lista de palavras agrupadas por suas finalidades:
+    
+    bstract        continue        goto        package     synchronized
+    ssert          default         if          private     this
+    oolean         do              implement   protected   throw
+    reak           double          import      public      throws
+    yte            else            instanceof  return      transient
+    ase            extends         int         short       try
+    atch           final           interface   static      void
+    har            finally         long        strictfp    volatile
+    lass           float           native      super       while
+    onst           for             new         switch
+
+    Controle de Pacotes
+    "import" - Importa pacotes ou classes dentro de um código.
+    "package" - Especifica q que pacote todas as classes de um arquivo pertencem.
+
+    Modificadores de Acesso
+    "public" - Acesso de qualquer classe.
+    "private" - Acesso apenas dentro da classe.
+    "protected" - Acesso por classes no mesmo pacote e subclasses.
+
+    Primitivo
+    "boolean" - Um valor indicando verdadeiro ou falso.
+    "byte" - Um inteiro de 8 bits (signed).
+    "char" - Um caractere unicode (16-bit unsigned).
+    "double" - Um número de ponto flutuante de 64 bits (signed).
+    "float" - Um número de ponto flutuante de 32 bits (signed).
+    "int" - Um inteiro de 32 bits (signed).
+    "long" - Um inteiro de 64 bits (signed).
+    "short" - Um inteiro de 32 bits (signed).
+    "void" - indica que o método não tem retorno de valor.
+
+    Modificadores de Classes, Variáveis ou Métodos
+    "abstract" - Classe que não pode ser instanciada ou método que precisa ser
+implementado por uma subclasse não abstrata.
+    "class" - Especifica uma classe.
+    "extends" - Indica a superclasse que a subclasse está estendendo.
+    "final" - Impossibilita que uma classe seja estendida, que o método seja
+sobrescrito ou que uma variável seja modificada.
+    "implements" - Indica as interfaces que uma classe irá implementar.
+    "interface" - Especifica uma interface.
+    "native" - Indica que um método está escrito em uma linguagem dependente de
+plataforma, como o "C".
+    "new" - Instancia um novo objeto, chamando seu construtor.
+    "static" - Faz um método ou variável pertencer à classe ao invés de às instâncias.
+    "strictfp" - Usado em frente à um método ou classe para indicar que os números de
+ponto flutuante seguirão as regras de ponto flutuante em todas as expressões.
+    "synchronized" - Indica que um método só pode ser acessado por uma thread de cada
+vez.
+    "transient" - Impede a serialização de campos.
+    "volatile" - Indica que uma variável pode ser alterada durante o uso de threads.
+
+    Controle de Fluxo Dentro de Um Bloco de Código
+    "break" - Sai do bloco de código em que ele está.
+    "case" - Executa um bloco de código dependendo do teste do switch.
+    "continue" - Pula a execução do código que viria após essa linha e vai para a
+próxima passagem do loop.
+
+    Tratamento de Erros
+    "assert" - Testa uma expressão condicional para verificar uma suposição do programador.
+    "catch" - Declara o bloco de código usado para tratar uma exceção.
+    "finally" - Bloco de código, após um try/catch, que é executado independentemente
+do fluxo de programa seguido ao lidar uma uma exceção.
+    "throw" - Usado para passar uma exceção para um método que o chamou.
+    "throws" - Indica que um método pode passar uma exceção para o método que o chamou.
+    "try" - Bloco de código que tentará ser executado, mas que pode causar uma exceção.
+
+    Variáveis de Referência
+    "super" - Refere-se à superclasse imediata.
+    "this" - Refere-se à instância atual do projeto.
+
+    Literais Reservados
+    De acordo com a Java Language Spacification, "null", "true" e "false" são, tecnicamente
+chamados de valores literais, e não, keywords. se você tentar criar algum identificador com
+estes valores, você também terá um erro de compilação.

@@ -1,0 +1,16 @@
+    PALAVRAS RESERVADAS
+
+    OBJETIVO DO CURSO
+    Apresentar as 52 palavras reservadas organizadas pos classificação
+de usabilidade considerando as regras da linguagem.
+
+    PRÉ-REQUISITOS
+    . Diretório do projeto definido
+    . Integração com o GitHub
+    . IDE configurada
+
+    ASSUNTOS
+    . Tipos primitivos
+    . Classificações
+    . Escopo de uso
+    . Palavras "opostas"
