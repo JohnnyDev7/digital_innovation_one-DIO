@@ -1,0 +1,39 @@
+    SCANNER
+
+    Nos exemplos anteriores, percebemos que podemos receber dados digitados pelo
+usuário do nosso sistema. Porém, tudo precisa estar em uma linha e, também, é
+necessãrio informar os valores nas posições correspondentes. Esta abordagem pode
+deixar margens de execução com erro do nosso programa. Por isto, com a finalidade
+de deixar as nossas entradas de dados mais seguras, agora vamos receber estes
+dados via "Scanner".
+
+    A classe "Scanner" permite que o usuário tenha uma interação mais assertiva
+com o nosso programa. Veja abaixo, como alterar a classe "AboutMe" para torná-la
+mais interativa:
+
+    import java.util.Locale;
+    import java.util.Scanner;
+
+    public class AboutMe {
+        public static void main(String [] args) {
+            // Criando o objeto scanner
+            Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
+
+            System.out.println("Digite seu nome");
+            String nome = scanner.next();
+
+            System.out.println("Digite seu sobrenome");
+            String sobrenome = scanner.next();
+
+            System.out.println("Digite sua idade");
+            int idade = scanner.nextInt();
+
+            System.out.println("Digite sua altura");
+            double altura = scanner.nextDouble();
+
+            // Imprimindo os dados obtidos pelo usuário.
+            System.out.println("Olá!!! Me chamo " + nome + " " + sobrenome);
+            System.out.println("Tenho " + idade + " anos");
+            System.out.println("Minha altura é " + altura + "m");
+        }
+    }

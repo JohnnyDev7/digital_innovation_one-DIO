@@ -1,0 +1,16 @@
+    TERMINAL E ARGUMENTOS
+
+    OBJETIVO DO CURSO
+    Explorar opções de entrada e saída de dados em uma aplicação Java.
+
+    PRÉ-REQUISITOS
+    . Diretório do projeto definido
+    . Integração com o GitHub
+    . IDE configurada
+    . Noções de MS-DOS
+
+    ASSUNTOS
+    . main args
+    . Scanner
+    . Execução via IDE
+    . Execução via prompt de comando
