@@ -1,0 +1,17 @@
+    OBJETIVO DO CURSO
+
+    Apresentar critérios para criação de métodos, parâmetros e visibilidade.
+
+    PRÉ-REQUISITOS
+
+    . Diretório do projeto defnido;
+    . Integração com GitHub;
+    . IDE configurada.
+
+    ASSUNTOS
+
+    . Qual a proposta principal do método?
+    . Qual o tipo de retorno esperado após executar o método?
+    . Quais os parâmetros serão necessários para execução do método?
+    . O método possui o risco de apresentar alguma exceção?
+    . Qual a visibilidade do método?

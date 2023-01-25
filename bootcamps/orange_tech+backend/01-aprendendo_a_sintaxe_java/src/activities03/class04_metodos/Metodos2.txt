@@ -1,0 +1,92 @@
+    MÉTODOS
+    
+    Todas as ações das aplicações são consideradas métodos.
+
+    Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande
+maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem
+a "funções" ou "sub-rotinas" disponíveis dentro de nossas classes.
+
+    Critérios Para Nomeação de Métodos
+    
+    Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas
+convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa.
+Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras
+pessoas. Para métodos, os critérios são:
+
+    . Deve ser nomeado como verbo;
+    . Seguir o padão camelCase (Todas as letras minúsculas, com exceção da primeira letra
+da segunda palavra).
+
+    Exemplos sugeridos para nomenclatura de métodos:
+
+        somar(int n1, int n2) {}
+        abrirConexao() {}
+        concluirProcessamento() {}
+        findById(int id) {}
+
+    Exemplo não sugerido para nomenclatura:
+        calcularImprimir () {} // O indicado é que cada método contenha apenas uma "responsabilidade".
+
+    ATENÇÃO!!! Não existe em Java o conceito de métodos "globais". Todos os métodos devem SEMPRE
+ser definidos dentro de uma classe.
+
+    Critérios de Definição de Métodos
+
+    Mas como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar à
+esta conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção
+é determinada pelos aspectos abaixo:
+    1 - Qual a proposta principal do método?
+        Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+    2 - Qual o tipo de retorno esperado após executar o método?
+        Você deve analisar se o método será responsável por retornar algum valor ou não.
+    
+    Caso o método não retorn nenhum valor, ele será representado pela palavra chave "void".
+
+    3 - Quais os parâmetros serão necessários para execução do método?
+        Os métodos às vezes precisam de argumentos como critérios para a execução.
+    4 - O método possui o risco de apresentar alguma exceção?
+        Exceções são comuns na execução de métodos. Às vezes é necessário prever e tratar a
+        possível existência de uma exceção.
+    5 - Qual a visibilidade do método?
+        Será necessário que o método seja visível à toda aplicação, somente em mesmos pacotes,
+        através de herança ou somente a nível da própria classe?
+    
+    Abaixo, temos um exemplo de uma classe com dois métodos e suas respectivas considerações:
+    
+    public class MyClass {
+
+        public double somar(int num1, int num2) {
+            // LÓGICA - FINALIDADE DO MÉTODO
+            return ...;
+        }
+
+        public void inprimir(String texto) {
+            // LÓGICA - FINALIDADE DO MÉTODO
+            // Não é necessário o uso de "return" pois não será retornado nenhum resultado
+        }
+
+        // throws Exception : indica que o método, ao ser utilizado, poderá gerar uma exceção.
+        public double dividir(int dividendo, int divisor) throws Exception {}
+
+        // Este método não pode ser visto por outras classes no projeto.
+        private void metodoPrivado() {}
+
+        // ALGUNS EQUÍVOCOS ESTRUTURAIS.
+        public void validar() {
+            // Este método deveria retornar algum valor. No caso, boolean (true ou false)
+        }
+
+        // public void calcularEnviar() {
+            // Um método deve representar uma única responsabilidade.
+        }
+
+        public void gravarCliente(String nome, String cpf, Integer idade) {
+            // Esse método tem a finalidade de gravar unformações de um cliente, por que não
+            // criar um objeto cliente e passar como parâmetro?
+            // Veja abaixo...
+        }
+        
+        public void gravarCliente(Cliente cliente) {}
+        // ou
+        public void gravar(Cliente cliente) {}
+    }
