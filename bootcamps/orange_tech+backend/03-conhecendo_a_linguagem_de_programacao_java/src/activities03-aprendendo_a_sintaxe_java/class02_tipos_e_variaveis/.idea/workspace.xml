@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c35d91-9248-4f56-8cc5-a13af8e78c2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../../.idea/digital_innovation_one-DIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../activities04-logica_condicional_controle_de_fluxos/Class01OperadoresRelacionais/OR04ResolucaoDoExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../activities04-logica_condicional_controle_de_fluxos/Class01OperadoresRelacionais/or01-o_que_sao_operadores_relacionais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../activities04-logica_condicional_controle_de_fluxos/Class01OperadoresRelacionais/or02-utilizando_operadores_relacionais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../activities04-logica_condicional_controle_de_fluxos/Class01OperadoresRelacionais/or03-exercicio_de_exemplo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class01_anatomia_das_classes/AnatomiaDasClasses6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis/TiposEVariaveis4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class03_operadores/Operadores7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class04_metodos/Metodos1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class04_metodos/Metodos2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class04_metodos/Metodos3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class04_metodos/Metodos3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class05_escopo/Escopo1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class05_escopo/Escopo2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class06_palavras_resevadas/PalavrasReservadas2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class06_palavras_resevadas/PalavrasResevadas1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class07_java_doc/Calculadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class07_java_doc/JavaDoc1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class07_java_doc/JavaDoc2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class07_java_doc/JavaDoc2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class08_terminal_e_argumentos/TerminalEArgumentos1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class08_terminal_e_argumentos/TerminalEArgumentos2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class08_terminal_e_argumentos/TerminalEArgumentos4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities03-aprendendo_a_sintaxe_java/class08_terminal_e_argumentos/TerminalEArgumentos5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities04-logica_condicional_controle_de_fluxos/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bin/activities04-logica_condicional_controle_de_fluxos/class01-operadores_relacionais/00-apresentacao_do_curso.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06-ganhando_produtividade_com_spring_framework/05-lab_padroes_projeto_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../06-ganhando_produtividade_com_spring_framework/05-lab_padroes_projeto_java/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +17,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/workspace/Programming-Learning/digital_innovation_one-DIO/bootcamps/orange_tech+backend/03-conhecendo_a_linguagem_de_programacao_java/src/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/Programming-Learning/digital_innovation_one-DIO/bootcamps/orange_tech+backend/03-conhecendo_a_linguagem_de_programacao_java/src/activities03-aprendendo_a_sintaxe_java/class02_tipos_e_variaveis&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
