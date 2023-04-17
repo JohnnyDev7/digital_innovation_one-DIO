@@ -1,0 +1,7 @@
+# Copiando Arquivos do Container
+
+Para copiar um arquivo dentro do próprio container, execute o comando *docker cp \<"ID"|"Nome do Container">:<"Caminho"/"Nome do Aruivo">.<"Extensão do Arquivo"> <"Nome do Novo Arquivo">*.
+
+Exemplo:
+
+\$ `docker cp Ubuntu-A:/destino/Meuzip.zip Zipcopia.zip`
