@@ -1,0 +1,101 @@
+# Criando uma Imagem Personalizada do Apache
+
+Neste exemplo será realizada a criação de uma imagem um pouco mais complexa.
+
+Para começar, acesse a pasta *images* criada na última aula.
+
+Utilizando o comando *mkdir*, crie uma pasta chamada *debian-apache*.
+
+`mkdir debian-apache`
+
+Acesse a pasta criada e, dentro dela, crie um diretório provisório com o nome de *site* e acesse mesmo.
+
+`cd debian-apache`
+
+`mkdir site`
+
+Dentro do diretório criado, utilizando o comando `wget`, baixe o arquivo zip *http://site1368633667.hospedagemdesites.ws/site1.zip*
+
+`wget http://site1368633667.hospedagemdesites.ws/site1.zip`
+
+É necessário realizar a descompactação do arquivo e compactá-lo no formato *tar* pois, será utilizado um comando docker que envia este arquivo para um local específicado e, automaticamente, realiza a descompactação de arquivos deste tipo.
+
+`unzip site1.zip`
+
+`rm site1.zip`
+
+Para compactar no formato *tar*, utilize o seguinte comando:
+
+`tar -czf site.tar ./`
+
+Copie o arquivo *.tar* criado, para a pasta anterior utilizando o comando `cp site.tar ../` e retorne para ela utilizando o comando `cd ..`.
+
+O diretório *site* pode ser removido com o comando `rm -rf site`
+
+Agora podemos criar o *Dockerfile* utilizando o nano.
+
+`nano Dockerfile`
+
+Dentro do nano, digite o código abaixo:
+
+    FROM debian
+    RUN apt-get update && apt-get install -y apache2 && apt-get clean
+
+    ENV APACHE_LOCK_DIR="var/lock"
+    ENV APACHE_PID_FILE="var/run/apache2.pid"
+    ENV APACHE_RUN_USER="www-data"
+    ENV APACHE__RUN_GROUP="www-data"
+    ENV APACHE_LOG_DIR="/var/log/apache2"
+
+    ADD site.tar /var/www/html
+    
+    LABEL description = "Apache webserver 1.0"
+
+    VOLUME /var/www/html
+
+    EXPOSE 80
+
+    ENTRYPOINT ["/usr/sbin/apachectl"]
+
+    CMD ["-D", "FOREGROUND"]
+
+O código acima cria um container com a imagem *debian* (como não foi especificada a versão, será instalada a mais atual), atualiza os recursos, instala o apache2, limpa os arquivos de instalação, copia o arquivo *site.tar* para dentro da pasta */var/www/html* (pasta padrão) do container descompactando automatimente o arquivo,
+cria uma etiqueta com o nome *Apache webserver 1.0*, cria um *VOLUME* onde serão salvos os dados, especifica a porta utilizada (80 - Por se tratar de um webserver), epecifica o arquivo que executa o Apache e especifica que a execução deve ser realizada em primeiro plano.
+
+Descrição das variáveis Apache declaradas:
+
+- ENV APACHE_LOCK_DIR="var/lock - Evita mais de uma execução do Apache em um mesmo container.
+- ENV APACHE_PID_FILE="var/run/apache2.pid - Especificaca do caminho od arquivo PID, que é um arquivo que contém o número de identificação do processo.
+- ENV APACHE_RUN_USER="www-data" - Especifica o usuário. Não é recomendada a utilização do usuário Root.
+- ENV APACHE__RUN_GROUP="www-data" - Especifica o grupo do usuário.
+- ENV APACHE_LOG_DIR="/var/log/apache2" - Especifica o diretório de *log*.
+
+Salve o arquivo utilizando as teclas *Ctrl + o* e, em seguida, a tecla *Enter*. Feche o nano pressionando as teclas *Ctrl + x*.
+
+Para criar a imagem utilizando o arquivo que contém o código de execução, utilize o comando abaixo:
+
+`docker image build -t debian-apache:1.0 .`
+
+O programa realizará todo o processo descrito no código para criar a imagem do Apache versão 1.0 com o nome *debian-apache*
+
+Para criar um container com a imagem criada, utilize o seguinte comando:
+
+`docker run -dti -p 80:80 --name meu-apache debian-apache:1.0`
+
+Para verificar se o container está em execução, utilize o comando `docker ps`.
+
+Para testar a execução do container, verifique o ip utilizado com o comando `ip a`, copie e cole na barra de endereços do seu navegador.
+
+Exemplo:
+
+`192.168.1.5`
+
+Caso necessite de outra aplicação com a mesma imagem, basta criar outro container alterando a porta e o nome.
+
+`docker run -dti -p 8080:80 --name meu-apache2 debian-apache:1.0`
+
+Para testar o novo container, cole o ip na barra de endereços do navegador de internet seguido de *:\<porta>*.
+
+Exemplo:
+
+`192.168.1.5:8080`
